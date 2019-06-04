@@ -1,0 +1,74 @@
+body {
+  background-image: url(../images/arizona-teddy-bear-cholla.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: #1c1505;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  line-height: 1.6em;
+  margin: 0;
+}
+
+.container {
+  margin: auto;
+  overflow: hidden;
+  position: relative;
+}
+
+.overlay {
+  background-color: rgba(255, 255, 255, 0.4);
+  position: relative;
+  border-radius: 10px;
+  margin-left: 5vw;
+  margin-right: 5vw;
+  margin-bottom: 20vh;
+}
+
+#main-header {
+  color: #1c1505;
+  float: left;
+  width: 40%;
+  height: 100px;
+  padding-top: 2px;
+  padding-left: 5%;
+  box-sizing: border-box;
+}
+
+#navbar {
+  color: #1c1505;
+  float: right;
+  width: 60%;
+  height: 100px;
+  padding-top: 8px;
+  padding-right: 2%;
+  box-sizing: border-box;
+}
+
+#navbar ul {
+  padding: 0;
+  padding-left: 10%;
+  list-style: none;
+  text-align: right;
+}
+
+#navbar li {
+  display: inline;
+}
+
+#navbar a {
+  color: #1c1505;
+  text-decoration: none;
+  font-size: 28px;
+  padding-right: 15px;
+}
+
+.text-box {
+  position: relative;
+  padding: 10px 0;
+}
+
+.text-box h1,
+.text-box h2,
+.text-box .button {
+  text-align: center;
+}
