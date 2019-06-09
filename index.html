@@ -5,51 +5,58 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <link rel="stylesheet" type="text/css" href="css/style.css" />
-    <title>Buy a Cactus - Cactus</title>
+    <title>Buy a Cactus - Desert</title>
   </head>
   <body>
-    <div class="overlay">
-      <div class="container">
+    <div id="nav-overlay">
+      <div class="container flex-container">
         <header id="main-header">
-          <div class="container-2">
-            <h1>Cactus</h1>
-          </div>
+          <h1>Desert</h1>
         </header>
 
-        <nav id="navbar">
-          <div class="container-2">
-            <ul>
-              <li><a href="#">Home</a></li>
-              <li><a href="#">About</a></li>
-              <li><a href="#">Shop</a></li>
-              <li><a href="#">Cart</a></li>
-            </ul>
+        <!--toggle: use this code for hamburger menu-->
+        <div id="menu-bar">
+          <div id="menu" onclick="onClickMenu()">
+            <div id="bar1" class="bar"></div>
+            <div id="bar2" class="bar"></div>
+            <div id="bar3" class="bar"></div>
           </div>
+        </div>
+        <!--end of hamburger menu code-->
+        <nav id="navbar">
+          <ul class="nav" id="nav">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Shop</a></li>
+            <li><a href="#">Cart</a></li>
+          </ul>
         </nav>
       </div>
     </div>
 
     <div class="container">
-      <div class="overlay">
+      <div id="text-overlay">
         <div class="text-box">
-          <h1>Our Cacti Are The Best</h1>
+          <h1>Your Cactus Destination</h1>
           <h2>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo
             ratione eum velit rerum repudiandae sapiente, molestias, ex aliquam,
-            ea vel quia maiores. Veritatis incidunt rerum quae magni dolor
-            corporis voluptatum!
+            ea vel quia maiores.
           </h2>
         </div>
 
-        <button type="button">
-          Subscribe to our newsletter
-        </button>
-        <button type="button">
-          I want a cactus!
-        </button>
+        <div class="flex-container">
+          <button type="button" class="button">
+            Subscribe to our newsletter
+          </button>
+          <button type="button" class="button">
+            I want a cactus!
+          </button>
+        </div>
       </div>
     </div>
 
+    <script src="script.js"></script>
     <footer></footer>
   </body>
 </html>
