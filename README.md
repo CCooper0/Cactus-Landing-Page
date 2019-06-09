@@ -1,2 +1,2 @@
 # Cactus-Landing-Page
-This is a landing page for someone who sells cacti
+This is a landing page for a cactus seller
