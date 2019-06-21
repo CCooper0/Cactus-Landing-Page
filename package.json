@@ -10,5 +10,15 @@
   "homepage": "https://ccooper0.github.io/Cactus-Landing-Page",
   "dependencies": {
     "gh-pages": "^2.0.1"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CCooper0/Cactus-Landing-Page.git"
+  },
+  "keywords": [],
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/CCooper0/Cactus-Landing-Page/issues"
   }
 }
