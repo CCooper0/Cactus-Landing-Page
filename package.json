@@ -2,11 +2,12 @@
   "name": "cactus-landing-page",
   "version": "1.0.0",
   "description": "Landing page for a cactus seller",
-  "homepage": "https://ccooper0.github.io/Cactus-Landing-Page/",
+  "main": "index.js",
   "scripts": {
     "deploy": "gh-pages -d dist"
   },
   "author": "Caitlin Cooper",
+  "homepage": "https://ccooper0.github.io/Cactus-Landing-Page",
   "dependencies": {
     "gh-pages": "^2.0.1"
   }
